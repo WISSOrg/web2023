@@ -1,4 +1,4 @@
-# web2022
+# web2023
 
 ![Build and Deploy](https://github.com/WISSOrg/web2020/workflows/Build%20and%20Deploy/badge.svg)
 
