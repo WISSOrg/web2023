@@ -4,7 +4,7 @@
 
 __Warning: This repository may contain information that has not officially been confirmed.__
 
-WISS 2022 web page.
+WISS 2023 web page.
 
 ## Principles
 
