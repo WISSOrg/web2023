@@ -17,4 +17,17 @@ WISS2023 実行委員会<br />
 
 ## 協賛学会（五十音順）
 
-- [Coming Soon](./)
+- [画像電子学会ビジュアルコンピューティング研究会](https://www.iieej.org/sigvc/)
+- [芸術科学会](https://art-science.org/)
+- [計測自動制御学会システムインテグレーション部門](https://sice-si.org/ja/)（協賛依頼中）
+- [情報処理学会エンタテインメントコンピューティング研究会](http://entcomp.org/sig/)
+- [情報処理学会音楽情報科学研究会](http://www.sigmus.jp/)
+- [情報処理学会音声言語情報処理研究会](http://www.sig-slp.jp/)
+- [情報処理学会コンピュータグラフィックスとビジュアル情報学研究会](http://cgvi.jp/)
+- [情報処理学会デジタルコンテンツクリエーション研究会](http://www.ipsj.or.jp/sig/dcc/)
+- [情報処理学会ヒューマンコンピュータインタラクション研究会](http://www.sighci.jp/)
+- [情報処理学会プログラミング研究会](https://sigpro.ipsj.or.jp/)
+- [情報処理学会ユビキタスコンピューティングシステム研究会](https://sigpro.ipsj.or.jp/)
+- [電子情報通信学会ヒューマンコミュニケーショングループ](http://sigubi.ipsj.or.jp/)
+- [日本バーチャルリアリティ学会](https://vrsj.org/)（協賛依頼中）
+- [ヒューマンインタフェース学会](https://jp.his.gr.jp/)（協賛依頼中）
