@@ -15,13 +15,14 @@
     url: "./design-competition.html"
   - name: WISS Challenge募集
     url: "./challenge.html"
-  - name: 学生ボランティア募集（準備中）
-    url: "./"
+  - name: 学生ボランティア募集
+    url: "./call-for-studentvolunteer.html"
   label: for-participants
 - category_name: プログラム
   pages:
-  - name: 全体スケジュール・登壇発表・ロングティザー発表（準備中）
-    url: "./"
+  - name: 全体スケジュール・登壇発表・ロングティザー発表
+    //url: "./"
+    url: "./program.html"
   - name: デモ・ポスター発表（準備中）
     url: "./"
   label: program
