@@ -46,6 +46,8 @@
   pages:
   - name: 表彰（準備中）
     url: "./"
+  - name: ローカル情報
+    url: "./local.html"
   - name: 過去のWISS
     url: "./archive.html"
   - name: 公式ツイッター

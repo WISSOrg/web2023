@@ -19,7 +19,7 @@ WISS2023 実行委員会<br />
 
 - [画像電子学会ビジュアルコンピューティング研究会](https://www.iieej.org/sigvc/)
 - [芸術科学会](https://art-science.org/)
-- [計測自動制御学会システムインテグレーション部門](https://sice-si.org/ja/)（協賛依頼中）
+- [計測自動制御学会システムインテグレーション部門](https://sice-si.org/ja/)
 - [情報処理学会エンタテインメントコンピューティング研究会](http://entcomp.org/sig/)
 - [情報処理学会音楽情報科学研究会](http://www.sigmus.jp/)
 - [情報処理学会音声言語情報処理研究会](http://www.sig-slp.jp/)
@@ -29,5 +29,5 @@ WISS2023 実行委員会<br />
 - [情報処理学会プログラミング研究会](https://sigpro.ipsj.or.jp/)
 - [情報処理学会ユビキタスコンピューティングシステム研究会](https://sigpro.ipsj.or.jp/)
 - [電子情報通信学会ヒューマンコミュニケーショングループ](http://sigubi.ipsj.or.jp/)
-- [日本バーチャルリアリティ学会](https://vrsj.org/)（協賛依頼中）
-- [ヒューマンインタフェース学会](https://jp.his.gr.jp/)（協賛依頼中）
+- [日本バーチャルリアリティ学会](https://vrsj.org/)
+- [ヒューマンインタフェース学会](https://jp.his.gr.jp/)
