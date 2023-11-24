@@ -5,38 +5,38 @@
     { 
       session: "セッション1: 身体", 
       talks: [ "01", "02", "03" ] ,
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "倉本 到",
+      chat_chair: "栗原 一貴",
     },
     { 
       session: "セッション2: 学習", 
       talks: [ "04", "05", "06" ] ,
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "五十嵐 悠紀",
+      chat_chair: "原 貴洋",
     },
     { 
       session: "セッション3: 表現", 
       talks: [ "07", "08", "09", "10" ] ,
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "鳴海 紘也",
+      chat_chair: "松村 耕平",
     },
     { 
       session: "セッション4: 国際学会・国際論文誌採択論文発表", 
       talks: [ "11", "12", "13", "14", "15", "16", "17" ] ,
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "志築 文太郎",
+      chat_chair: "宮藤 詩緒",
     },
     { 
       session: "セッション5: 誘い", 
       talks: [ "18", "19", "20" ] ,
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "山本 和彦",
+      chat_chair: "大西 鮎美",
     },
     { 
       session: "セッション6: 入力手法", 
       talks: [ "21", "22" ] ,
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "高田 崚介",
+      chat_chair: "池松 香",
     },
   ];
 - 
@@ -44,8 +44,8 @@
     {
       session: "ロングティザー", 
       talks: [ "T01", "T02", "T03", "T04", "T05"], 
-      session_chair: "未定",
-      chat_chair: "未定",
+      session_chair: "寺田 努",
+      chat_chair: "加藤 邦拓",
     },
   ];
 - const placeholder_image_path = "./assets/representatives/placeholder.jpg"
@@ -99,8 +99,8 @@ html(lang=ja)
               //- const category_class = csv_data_entry["category"] == "L" ? "badge-long" : "badge-short";
               //- const category_name = csv_data_entry["category"] == "L" ? "ロング発表" : "ショート発表";
               - const entry_name = csv_data_entry["category"];
-              - const category_class = entry_name == "L" ? "badge-long" : (entry_name == "S" ? "badge-short" : "badge-int");
-              - const category_name = entry_name == "L" ? "ロング発表" : (entry_name == "S" ? "ショート発表" : "国際発表");
+              - const category_class = entry_name == "L" ? "badge-long" : (entry_name != "I" ? "badge-short" : "badge-int");
+              - const category_name = entry_name == "L" ? "ロング発表" : (entry_name == "S" ? "ショート発表" : (entry_name == "D" ? "議論枠発表" : "国際発表"));
               - const text1 =  entry_name != "I" ? "採録時コメント" : "国際学会・国際論文誌名";
               if entry["id"] == talk
                 h4 [#{talk}] #{entry["title"]} <span class="badge #{category_class}">#{category_name}</span>

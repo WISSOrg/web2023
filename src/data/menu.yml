@@ -11,6 +11,8 @@
   pages:
   - name: 参加募集
     url: "./call-for-participants.html"
+  - name: 感染症（新型コロナ・インフルエンザ）対策
+    url: "./covid19d.html"
   - name: 表紙デザイン募集
     url: "./design-competition.html"
   - name: WISS Challenge募集
@@ -21,26 +23,25 @@
 - category_name: プログラム
   pages:
   - name: 全体スケジュール・登壇発表・ロングティザー発表
-    //url: "./"
     url: "./program.html"
-  - name: デモ・ポスター発表（準備中）
-    url: "./"
+  - name: デモ・ポスター発表
+    url: "./demo-poster.html"
   label: program
 - category_name: 動画中継
   pages:
-  - name: 1日目（準備中）
-    url: "./"
-  - name: 2日目（準備中）
-    url: "./"
-  - name: 3日目（準備中）
-    url: "./"
+  - name: 1日目
+    url: "https://youtube.com/live/pWNfCc4Sz58?feature=share"
+  - name: 2日目
+    url: "https://youtube.com/live/YC9SDccShRk?feature=share"
+  - name: 3日目
+    url: "https://youtube.com/live/EAGSfB6VqUg?feature=share"
   label: live-streaming
 - category_name: 予稿集
   pages:
-  - name: ウェブ予稿集（準備中）
-    url: "./"
-  - name: 電子予稿集（準備中）
-    url: "./"
+  - name: ウェブ予稿集
+    url: "https://www.wiss.org/WISS2023Proceedings/"
+  - name: 電子予稿集
+    url: "./downloads/proceedings.pdf"
   label: proceedings
 - category_name: WISSについて
   pages:

@@ -1,0 +1,60 @@
+- var page_title = "WISS 2023: 第31回インタラクティブシステムとソフトウェアに関するワークショップ"
+
+- 
+  const demo_sessions = [
+    {
+      session: "デモセッション1", 
+      talks: ["1-A01", "1-A02", "1-A03", "1-A04", "1-A05", "1-A06", "1-A07", "1-A08", "1-A09", "1-A10", "1-A11", "1-A12", "1-A13", "1-A14", "1-A15", "1-B01", "1-B02", "1-B03","1-B04","1-B05","1-B06","1-B07","1-B08","1-B09","1-B11","1-B12","1-C01","1-C03","1-C04","1-C05","1-C06","1-C08","1-C10"], 
+      session_chair: "塚田 浩二",
+      time: "1日目 16:45-18:25",
+    },
+    {
+      session: "デモセッション2", 
+      talks: ["2-A01", "2-A02", "2-A04", "2-A05", "2-A06", "2-A07", "2-A08", "2-A09", "2-A10", "2-A12", "2-A14", "2-A15", "2-B01", "2-B02", "2-B03","2-B04","2-B05","2-B06","2-B07","2-B08","2-B09","2-B10","2-B11", "2-C01","2-C02","2-C03","2-C04","2-C05","2-C06","2-C07","2-C08","2-C09","2-C10"], 
+      session_chair: "高橋 治輝",
+      time: "2日目 16:35-18:15",
+    },
+    {
+      session: "デモセッション3", 
+      talks: ["3-A01", "3-A02", "3-A03", "3-A04", "3-A05", "3-A06", "3-A07", "3-A08", "3-A09", "3-A10", "3-A11", "3-A12", "3-A13", "3-A14", "3-A15", "3-B01", "3-B02", "3-B03","3-B04","3-B05","3-B06","3-B07","3-B08","3-B09","3-B10","3-B11","3-B12","3-C01","3-C05","3-C07","3-C09","3-C10"], 
+      session_chair: "土田 修平",
+      time: "3日目 09:10-10:50",
+    }
+  ];
+
+
+doctype html
+html(lang=ja)
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    include includes/seo
+    title #{page_title}
+    include includes/bootstrap-css
+    link(rel="stylesheet" href="./css/override.css")
+  body
+    include includes/header
+    .container.nav-padding.content
+      h1 デモ・ポスター発表
+      ul
+      .program
+        each session in demo_sessions
+          hr
+          .jumbotron
+            h3 #{session["session"]}
+            ul.list-inline
+              li.list-inline-item <b>日時：</b>#{session["time"]}
+              li.list-inline-item <b>座長：</b>#{session["session_chair"]}
+              //li.list-inline-item <b>インタビューア：</b>#{session["interviewer"]}
+
+          each talk in session["talks"]
+            each entry in papers_data
+              if entry["id"] == talk
+                h5 [#{talk}] #{entry["title"]}  
+                h6 #{entry["category"] == "1" ? "<デモポスター>" : entry["category"] == "2" ? "<予稿なしデモポスター>" : entry["category"] == "3" ? "<ロング>" : entry["category"] == "4" ? "<ショート>" : entry["category"] == "5" ? "<ロングティザー>" : entry["category"] == "6" ? "<議論枠>" : entry["category"] == "7" ? "<国際学会・論文誌>" : ""}
+                p.authors #{entry["authors"]}
+        hr
+        p 
+          small 著者の方へ：ウェブプログラム掲載用のデータの提出・差替を希望する場合はウェブ担当 2023web@wiss.orgへ連絡をお願いします。書誌情報（著者・タイトル等）にかかる変更を希望する場合はプログラム委員長 2023@wiss.org へ連絡をお願いします。
+    include includes/footer
+    include includes/bootstrap-js
